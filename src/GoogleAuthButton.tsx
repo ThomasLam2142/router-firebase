@@ -2,7 +2,7 @@ import React from 'react';
 import { GoogleAuthProvider, signInWithPopup, Auth } from 'firebase/auth';
 
 interface GoogleAuthButtonProps {
-  auth: Auth; // Pass the Firebase Auth object as a prop
+  auth: Auth;
 }
 
 const GoogleAuthButton: React.FC<GoogleAuthButtonProps> = ({ auth }) => {

@@ -16,7 +16,7 @@ const GoogleAuthButton: React.FC<GoogleAuthButtonProps> = ({ auth }) => {
 
     try {
       await signInWithPopup(auth, provider);
-        navigate('/dashboard');
+        navigate('/UserDashboard');
     } catch (error) {
       // Handle authentication errors
       console.error('Google sign-in error:', error);
